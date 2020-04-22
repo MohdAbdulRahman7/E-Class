@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.eduvision.ui.home.HomeFragment"
+        android:label="eduVision"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.eduvision.ui.gallery.GalleryFragment"
+        android:label="eduCR"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.eduvision.ui.slideshow.SlideshowFragment"
+        android:label="eduBook"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.eduvision.ui.tools.ToolsFragment"
+        android:label="eduTranslate"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.eduvision.ui.share.ShareFragment"
+        android:label="eduLearn"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_educonvert"
+        android:name="com.example.eduvision.ui.share.ShareFragment"
+        android:label="eduLearn"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.eduvision.ui.send.SendFragment"
+        android:label="eduConvert"
+        tools:layout="@layout/fragment_send" />
+</navigation>

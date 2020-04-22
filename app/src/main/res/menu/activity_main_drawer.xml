@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="eduCR" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/book"
+            android:title="eduBook" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/translate"
+            android:title="eduTranslate" />
+
+        <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/learn"
+                android:title="eduLearn" />
+        <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/micro"
+                android:title="eduConvert" />
+
+        <item
+            android:id="@+id/nav_eduMath"
+            android:icon="@drawable/math"
+            android:title="eduMath" />
+    </group>
+</menu>
